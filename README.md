@@ -33,5 +33,5 @@ Searchpage
 
 Detailpage
 
-![Detailpage-1](https://gitlab.com/binarxglints_batch11/finalproject/team-b/Frontend/-/raw/new-wahyuts/images/Detail-page-1.png)
-![Detailpage-2](https://gitlab.com/binarxglints_batch11/finalproject/team-b/Frontend/-/raw/new-wahyuts/images/Detail-page-2.png)
+![Detailpage-1](https://gitlab.com/binarxglints_batch11/finalproject/team-b/Frontend/-/raw/new-wahyuts/images/Detail-page-01.png)
+![Detailpage-2](https://gitlab.com/binarxglints_batch11/finalproject/team-b/Frontend/-/raw/new-wahyuts/images/Detail-page-02.png)
