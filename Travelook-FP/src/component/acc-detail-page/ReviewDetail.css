@@ -1,0 +1,33 @@
+.cont-review-detail{
+    display:flex;
+    flex-direction:column;
+    /* border-bottom:1px solid black; */
+    /* margin-top:10px; */
+    margin-left:20px;
+    padding-top:12px;
+    padding-left: 20px;
+    width: 840px;;
+    background: #fdfdfd;;
+    /* background: rgba(240, 238, 238); */
+}
+
+.cont-review-boxcard{
+    display:flex;
+    flex-direction:column;
+    /* border-bottom:1px solid black; */
+    /* margin-top:20px; */
+
+    margin-left:20px;
+    padding-top:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:50px;
+
+    width: 840px;;
+    background: #fdfdfd;
+    /* background: rgba(240, 238, 238); */
+}
+
+.only-margin-review{
+    margin-bottom: 5px;
+}

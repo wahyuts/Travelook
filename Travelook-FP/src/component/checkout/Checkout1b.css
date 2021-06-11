@@ -1,0 +1,34 @@
+.checkout1b {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    justify-content: center;
+    color: red; 
+}
+
+.checkout1b h1 {
+    color: aquamarine;
+
+}
+
+
+
+
+
+/* .checkout1b-container {
+    width: 80%;
+    display: flex;
+}
+.checkout1b-box-left {
+   flex: 4;
+   margin-left: 10px;
+}
+
+.checkout1b-box-leftside {
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    height: 300px;
+    margin-right: 50px;
+} */

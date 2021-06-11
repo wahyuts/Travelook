@@ -1,0 +1,16 @@
+.HeadNavDetail {
+    background: white;
+    /* height: 100vh; */
+}
+
+.notify-detail{
+    margin-left: auto; /*biar otomatis class push nya langsung mojok ke kanan*/
+    padding-right:50px;
+}
+
+.detail-top {
+    display: flex;
+    margin: auto;
+    padding-left: 240px;
+    padding-top: 20px;
+}

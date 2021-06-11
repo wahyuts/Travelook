@@ -1,0 +1,58 @@
+*{
+	box-sizing: border-box;
+}
+
+.dashdash{
+    /*element body saja tidak cukup dibuat flex jika ingin membuat layout web yg flexible
+    main element juga harus dibuat flex karena untuk mengatur dan buat element yang didalem main flex juga*/
+    display: flex;
+    flex: 1; /*nah opsi ini buat untuk menyamaratakan biasanya isi kolom kek side bar dan content kolom*/
+}
+
+main>#menu-dashboard{ /*pembacaan main>#bar-button artinya adalah,..pilih id bar-button yang orang tuanya(parent) main
+    artinya semua yang ada di id bar-button akan terkena effek css yang diberikan*/
+    
+    flex: 0 50vh; /*flex:0 berati kebalikan nya dari flex:1 kalo flex satu nyamaratain..
+    flex :0 itu ngebuat salah satu bar kolom menjadi lebih kecil dan yang laennya besar,..makanya dikasih opsi ukuran vh disebelahnya*/
+    margin-top: 40px;
+    /*order: -1;*/ /*order ini untuk ngerubah susunan aja sapa yang didahuliin,..untuk kasus ini tidak di pake kode nya*/
+    display: flex; /*arti kode nya sama seperti yg ud disebutin sebelumnya,..cuma ada penambahan
+        biasanya kalo kita pake display:flex apalagi untuk sidebar dan kolom content jangan dikasih ukuran height,..kalo gak jadi ga teratur pas discrool*/
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    flex-shrink: 0; /*supaya kalo di kecilin alias di sroll browsernya untuk ngecilin,..tidak error*/
+    background-color: transparent;
+
+    /*border:1px solid pink;*/
+    border-radius: 4px;
+    font-size: 1.2em;
+    color: black;
+
+}
+
+main>#content-dashboard{
+    flex: 1;
+
+
+    /*display: flex; /*arti kode nya sama seperti yg ud disebutin sebelumnya,..cuma ada penambahan
+        biasanya kalo kita pake display:flex apalagi untuk sidebar dan kolom content jangan dikasih ukuran height,..kalo gak jadi ga teratur pas discrool*/
+    /* flex-direction: column;
+    justify-content: space-between; */
+
+    /* background-color: black 0.5; */
+    /*border:1px solid pink;*/
+    margin-top: 40px;
+
+	border-radius: 4px;
+    font-size: 1.2em;
+    height:50vh;
+
+    background-color:transparent;
+    /* background-color:rgb(243, 92, 92); */
+
+    color: rgb(15, 15, 15);
+    flex-shrink: 0;
+    /*flex: 0 30vh;
+    order: -1;*/
+}

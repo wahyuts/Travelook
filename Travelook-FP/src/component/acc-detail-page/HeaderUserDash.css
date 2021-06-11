@@ -1,0 +1,15 @@
+.cont-signin3{
+  display:flex;
+  align-items:flex-end;
+  color:black;
+}
+
+.cont-signin3>p{
+  cursor:pointer;
+  margin-top: 17px;
+  margin-left:20px;
+}
+
+.cont-signin3 > li {
+    list-style: none;
+  }

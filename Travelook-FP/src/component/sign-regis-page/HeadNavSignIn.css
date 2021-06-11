@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.travelook-logo{
+  width: 200px;
+  height:30px;
+}
+
+.cont-signin{
+  display:flex;
+  justify-content: space-between;
+  margin-top: 1vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.button-signin{
+  height: 50px;
+  width: 120px;
+  font-size: 14px;
+  background-color: var(--white);  
+}
+
+/* .cont-signin > .button-signin{
+  height: 50px;
+  width: 120px;
+  font-size: 14px;
+  background-color: var(--white);  
+} */
+
+
+  
+  
+  
+  

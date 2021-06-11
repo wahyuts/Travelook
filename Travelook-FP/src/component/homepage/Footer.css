@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 339px;
+    width: 1142px;
+    margin-top: 100px;
+ }
+ .footer-image {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .disbox{
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+ }
+
+ /* .componetInFooter{
+     display: flex;
+ } */
+
+ .h1 {
+     text-align: center;
+ }
+ .footer-p {
+     text-align: center;
+ }
+
+ .zone-jb3 {
+    cursor:pointer;
+    font-size:1em;
+    border-radius:4px;
+    transition: all 0.3s linear;
+    
+}
+
+.cont-cover-jb3{
+    padding-top: 8vh;
+    height: 92vh ; /*artinya 50% dari tinggi browser,..tapi penulisan vh tidak pake persen jadi 50 ya 50%*/
+    
+}
+
+.cover-jb3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9.5vw;
+    /* padding-bottom: 8vh; */
+    width: 80vw;
+    height: 40vh ; /*artinya 50% dari tinggi browser,..tapi penulisan vh tidak pake persen jadi 50 ya 50%*/
+}
+
+.cover-jb4{
+    padding-top: 10vh;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 9.5vw;
+    width: 80vw;
+    height: 25vh ; 
+}
+
+.cover-jb5{
+    display: flex;
+    margin-right: 9.5vw;
+    margin-left: 9.5vw;
+    
+}
+
+.hr-margin{
+    margin-left: 9.5vw;
+    margin-right: 9.5vw;
+    margin-top:60px;
+}
+
+.supp-column{
+    padding-left: 5vw;
+}
+
+.push-abis{
+    margin-left: auto; /*biar otomatis class push nya langsung mojok ke kanan*/
+    padding-right:10px;
+}
+
+.flex-play{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cover-jb3 > .boxFooter1{
+    /* display: block; */
+    padding-top:5vh;
+}
+
+.gary{
+    
+    background: rgb(148, 148, 148,0.3);
+}
+
+.black-jb3{
+
+    background: rgb(238,151,84);
+    background: linear-gradient(309deg, rgba(238,151,84,0.9976365546218487) 0%, rgba(246,240,234,0.9948354341736695) 14%, rgba(246,242,235,1) 83%, rgba(240,120,55,0.9864320728291317) 95%);
+
+    /* background: rgb(246,169,97);
+    background: linear-gradient(14deg, rgba(246,169,97,0.9976365546218487) 0%, rgba(246,240,234,0.9948354341736695) 35%, rgba(245,184,41,0.9864320728291317) 95%); */
+    /* background: #070707; Old browsers */
+}

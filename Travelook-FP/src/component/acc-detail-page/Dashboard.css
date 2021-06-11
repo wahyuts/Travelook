@@ -1,0 +1,53 @@
+/* .sidebar:hover {
+    cursor: pointer;
+  } */
+  
+  .sidebar {
+      
+      background: white;
+      /* background: rgba(240, 238, 238); */
+      color: rgb(126, 122, 122);
+      width:35vh;
+      /* width:220px; */
+      border-radius:3px;
+    }
+  
+  .item-list{
+    /* width:200  */
+    cursor:pointer;
+    height:55px;
+    border-bottom: 1px solid rgba(156, 81, 81, 0.5);
+  }
+
+  .btn-list{
+    height:50px;
+  }
+
+  .btn-list:hover{
+    border-left: 3px solid rgba(189, 146, 146, 0.5); ;
+    
+    
+  }
+
+  .icon-margin{
+    margin-right: 10px;
+  }
+
+  .styling-link-dashboard{
+    text-decoration: none;
+    color: rgb(126, 122, 122);
+  }
+
+  .styling-link-dashboard:hover{
+    text-decoration: none;
+    color: rgb(126, 122, 122);
+  }
+
+  .sidebar-subitem-text {
+     /* font-size: 5rem; */
+     font-size: 0.8rem;
+  }
+
+  .buthover:hover{
+    border-left: 1px solid grey;
+  }

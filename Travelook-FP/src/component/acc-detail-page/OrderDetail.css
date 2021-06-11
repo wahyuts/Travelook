@@ -1,0 +1,134 @@
+.cont-order-detail{
+    display:flex;
+    flex-direction:column;
+    border-bottom:1px solid #C4C4C4;
+    /* margin-top:20px; */
+    margin-left:20px;
+    padding-top:12px;
+    padding-left: 20px;
+    width: 840px;
+    background: #fdfdfd;;
+    /* background: rgba(240, 238, 238); */
+}
+
+.cont-order-boxcard{
+    display:flex;
+    flex-direction:column;
+    /* border-bottom:1px solid black; */
+    /* margin-top:20px; */
+
+    margin-left:20px;
+    padding-top:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:50px;
+
+    width: 840px;
+    background: #fdfdfd;
+    /* background: rgba(240, 238, 238); */
+}
+
+.only-margin{
+    margin-bottom: 20px;
+}
+
+.card-order{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #C4C4C4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.only-pic>.pic-in-order{
+    width:230px;
+    height:150px;
+    padding-left:5px;
+    padding-right: 20px;
+}
+
+.only-pic>.pic-in-orderReview{
+    width:270px;
+    height:180px;
+
+    padding-right: 20px;
+    padding-left: 5px;
+
+}
+
+.cont-order-boxcard .detail-booking-card{
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.cont-order-boxcard .only-margin-tripple-dot{
+   
+    padding-right: 50px;
+}
+
+
+.ul-order{
+    display: flex;
+    padding-left: 0px;
+    height: 40px;
+    /* flex-direction: row; */
+    list-style: none;
+    /* border-bottom: 2px solid black; */
+    /* font-size: 0.7em; */
+    margin: 0;
+    /* transition: all 0.3s linear; */
+}
+
+.ul-order>li:hover{
+    cursor: pointer;
+    border-bottom:2px solid rgb(90, 89, 89);
+}
+
+.ul-order>li{
+    font-size:14px;
+    margin-right: 20px;
+}
+
+.ul-tripple-dot{
+    display: flex;
+    list-style: none;
+}
+
+.ul-tripple-dot>.status{
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+    background: green;
+}
+
+.ul-tripple-dot>.statusRed{
+    text-align: center;
+    /* width:70px; */
+    padding-right: 5px;
+    padding-left: 5px;
+    color: white;
+    background: rgb(247, 6, 6);
+}
+
+.ul-tripple-dot>.statusRev{
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+    background: green;
+}
+
+.hover-tripple-dot{
+    cursor: pointer;
+}
+
+.hover-tripple-dot:hover{
+    color: green;
+}
+
+

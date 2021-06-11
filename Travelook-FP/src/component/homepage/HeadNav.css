@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .travelook-logo2{
+    width: 200px;
+    height:30px;
+    /* background-color:white */
+  }
+
+  .travelook-logo3{
+    width: 206px;
+    height:45px;
+    /* background-color:white */
+  }
+  
+  .cont-signin2{
+    display:flex;
+    /* justify-content: space-between; */
+    margin-top: 1vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  
+  .button-signin2{
+    height: 50px;
+    width: 140px;
+    font-size: 14px;
+    background-color: var(--white);  
+  }
+
+  .cont-signin2 > li {
+    list-style: none;
+  }
+
+  li{
+    list-style: none;
+    font-size:12px;
+  }
+
+  .black{
+    background: #1E1E1E;
+  }
+
+  .push{
+    margin-left: auto; /*biar otomatis class push nya langsung mojok ke kanan*/
+    padding-right:50px;
+}
+
+.push2{
+  margin-left: auto; /*biar otomatis class push nya langsung mojok ke kanan*/
+  padding-right:50px;
+}
+
+.after{
+  display:flex;
+  align-items:center;
+}
+
+.after,.push{
+  margin-left: auto; /*biar otomatis class push nya langsung mojok ke kanan*/
+  /* padding-right:50px; */
+}
+
+
+@media only screen and (min-width: 2560px) {
+  .cont-signin2{
+    display:flex;
+    /* justify-content: space-between; */
+    margin-top: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  .travelook-logo3{
+    width: 300px;
+    height:70px;
+    /* background-color:white */
+  }
+}

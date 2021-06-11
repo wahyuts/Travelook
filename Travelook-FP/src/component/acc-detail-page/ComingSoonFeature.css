@@ -1,0 +1,17 @@
+.cont-cms{
+    display:flex;
+    flex-direction:column;
+    /* border-bottom:1px solid black; */
+    /* margin-top:20px; */
+
+    margin-left:20px;
+    /* margin-top:20px; */
+    padding-top:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:50px;
+
+    width: 22em;
+    background: #fdfdfd;
+    /* background: rgba(240, 238, 238); */
+}

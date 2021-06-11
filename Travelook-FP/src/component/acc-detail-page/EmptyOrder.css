@@ -1,0 +1,10 @@
+.flexEmptyOrder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty-states-logo{
+    margin-bottom:20px
+}

@@ -1,0 +1,23 @@
+.sidebarr:hover {
+  /* font-size:200px; */
+  cursor: pointer;
+}
+
+.sidebarr {
+    /* font-size:200px; */
+    /* background: red; */
+    background: white;
+
+    /* background: rgba(100, 99, 99, 0.1); */
+    margin-top: 48px;
+    width:500px;
+    max-width: 320px;
+    /* height: 820px; */
+    /* max-width: 320px; */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+.sidebar-subitem-text {
+   /* font-size: 5rem; */
+   font-size: 0.8rem;
+}

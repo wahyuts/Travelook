@@ -1,0 +1,59 @@
+/* @media only screen and (min-width: 1366px) { */
+
+    .zone-jbty {
+        cursor:pointer;
+        font-size:2em;
+        border-radius:4px;
+        transition: all 0.3s linear;
+    }
+
+    .cont-cover-jbty{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height:68.5vh;
+        margin-left: 8vw;
+        margin-right: 8vw;
+        margin-bottom: 15vw;
+        height: 100% /*artinya 50% dari tinggi browser,..tapi penulisan vh tidak pake persen jadi 50 ya 50%*/
+    }
+
+    .red-jb{
+            background: red; /* Old browsers */
+
+        /* background: #C655BE; Old browsers */
+    }
+
+    .logo-absurd-bangetty{
+        margin-top: 30px;
+        width:600px;
+        height:550px;
+    }
+
+    /* .box>img{
+        width: 100%;
+    } */
+    .beforeIMG>img{
+        display:flex;
+        justify-content:center;
+    }
+
+    .boxty{
+        padding-top: 90px;
+        padding-Left: 20px;
+        /* padding-Right: 20px; */
+
+
+        /* padding: 70px; */
+    }
+    .scale{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height:68.5vh
+    }
+
+    
+  /* } */

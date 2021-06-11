@@ -1,0 +1,299 @@
+.checkout1c {
+  background-color: transparent;
+  display: flex;
+  /* align-items: center; */
+  margin-top: 50px;
+  padding-bottom: 100px;
+  justify-content: center;
+}
+
+.checkout1c-container {
+  width: 80%;
+  display: flex;
+}
+.checkout1c-border {
+  flex: 4;
+  margin-left: 10px;
+}
+
+/* .checkout1c-border .checkout1c-border-kiri {
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  height: 800px;
+  margin-right: 50px;
+  width: 1500px;
+} */
+
+.checkout1c-border .checkout1c-border-kiri {
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  height: 800px;
+  margin-right: 50px;
+  width: 1500px;
+}
+
+.checkout1c-border-kiri-container {
+  /* margin: 30px 30px; */
+  display: grid;
+  justify-content: center;
+  padding-top: 100px;
+}
+.checkout1c-border-kiri-container .checkout1c-border-kiri-select {
+  /* display: flex; */
+  font-size: 16px;
+  /* padding-left: 40px; */
+  text-align: center;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 20px;
+}
+
+.checkout-countdown {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  /* align-items: center; */
+  /* border-bottom: 1px solid #eaeaea; */
+}
+.checkout1c-kanan-border2c-content-btn {
+  padding-top: 30px;
+  padding-left: 130px;
+}
+.checkout1c-kanan-border2c-content-btn-content {
+  font-family: poppins;
+  width: 70%;
+  height: 70px;
+  background-color: white;
+  color: black;
+  border-bottom: 1px solid #eaeaea;
+  /* margin-bottom: 100px; */
+}
+.checkout1c-boxbawah-container {
+  /* border-top: 1px solid #eaeaea; */
+  margin-top: 100px;
+}
+/* .border-1c-hr {
+    border-top: 1px solid #eaeaea;
+} */
+
+.checkout1c-boxbawah {
+  border: 1px solid #c2c3c6;
+  width: 60%;
+  height: 200px;
+  margin: 0 auto;
+}
+.checkout1c-boxbawah .border-content1c-bawah-image {
+  margin: 20px 20px;
+  height: 90%;
+}
+/* .border-content1c-bawah  {
+    
+} */
+
+.checkout1c-boxbawah .border-content1c-bawah {
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: flex-end; */
+  /* margin-bottom: 200px; */
+}
+
+/* .border-content1c-bawah-contentborder1c {
+  display: flex;
+} */
+.border-content1c-bawah-contentborder1c
+  .border-content1c-bawah-content-1c-atas {
+  color: #898b8f;
+  font-family: Nunito;
+  font-size: 16px;
+  line-height: 16px;
+  padding-top: 20px;
+}
+.border-content1c-bawah-contentborder1c
+  .border-content1c-bawah-content-1c-bawah {
+  color: #3e3e3e;
+  font-family: Nunito;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  /* padding-top: 10px; */
+}
+.border-content1c-bawah-containercontent-1 {
+  display: flex;
+  /* justify-items: space-between; */
+}
+
+.border-content1c-bawah-content-1c-bawah1 {
+  /* border-right: 1px solid #C2C3C6; */
+  margin-right: 24px;
+}
+.border-content1c-bawah-containercontent-1
+  .border-content1c-bawah-content-1c-bawah2 {
+  border-left: 1px solid #c2c3c6;
+  /* margin-right: 24px; */
+  padding-left: 24px;
+}
+
+.border-content1c-bawah-contentborder1c
+  .border-content1c-bawah-content-1c-atas-2 {
+  color: #3e3e3e;
+  font-family: Nunito;
+  font-size: 16px;
+  line-height: 16px;
+  padding-top: 20px;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1376px) {
+
+  .checkout1c {
+    background-color: transparent;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 50px;
+    padding-bottom: 100px;
+    justify-content: center;
+  }
+  
+  .checkout1c-container {
+    width: 80%;
+    display: flex;
+  }
+  .checkout1c-border {
+    flex: 4;
+    margin-left: 10px;
+  }
+  
+  .checkout1c-border .checkout1c-border-kiri {
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    height: 800px;
+    margin-right: 50px;
+    width: 1500px;
+  }
+  .checkout1c-border-kiri-container {
+    /* margin: 30px 30px; */
+    display: grid;
+    justify-content: center;
+    padding-top: 100px;
+  }
+  .checkout1c-border-kiri-container .checkout1c-border-kiri-select {
+    /* display: flex; */
+    font-size: 16px;
+    /* padding-left: 40px; */
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 20px;
+  }
+  
+  .checkout-countdown {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    /* align-items: center; */
+    /* border-bottom: 1px solid #eaeaea; */
+  }
+  .checkout1c-kanan-border2c-content-btn {
+    padding-top: 30px;
+    padding-left: 130px;
+  }
+  .checkout1c-kanan-border2c-content-btn-content {
+    font-family: poppins;
+    width: 70%;
+    height: 70px;
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid #eaeaea;
+    /* margin-bottom: 100px; */
+  }
+  .checkout1c-boxbawah-container {
+    /* border-top: 1px solid #eaeaea; */
+    margin-top: 100px;
+  }
+  /* .border-1c-hr {
+      border-top: 1px solid #eaeaea;
+  } */
+  
+  .checkout1c-boxbawah {
+    border: 1px solid #c2c3c6;
+    width: 60%;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .checkout1c-boxbawah .border-content1c-bawah-image {
+    margin: 20px 20px;
+    height: 90%;
+  }
+  /* .border-content1c-bawah  {
+      
+  } */
+  
+  .checkout1c-boxbawah .border-content1c-bawah {
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: flex-end; */
+    /* margin-bottom: 200px; */
+  }
+  
+  /* .border-content1c-bawah-contentborder1c {
+    display: flex;
+  } */
+  .border-content1c-bawah-contentborder1c
+    .border-content1c-bawah-content-1c-atas {
+    color: #898b8f;
+    font-family: Nunito;
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 20px;
+  }
+  .border-content1c-bawah-contentborder1c
+    .border-content1c-bawah-content-1c-bawah {
+    color: #3e3e3e;
+    font-family: Nunito;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    /* padding-top: 10px; */
+  }
+  .border-content1c-bawah-containercontent-1 {
+    display: flex;
+    /* justify-items: space-between; */
+  }
+  
+  .border-content1c-bawah-content-1c-bawah1 {
+    /* border-right: 1px solid #C2C3C6; */
+    margin-right: 24px;
+  }
+  .border-content1c-bawah-containercontent-1
+    .border-content1c-bawah-content-1c-bawah2 {
+    border-left: 1px solid #c2c3c6;
+    /* margin-right: 24px; */
+    padding-left: 24px;
+  }
+  
+  .border-content1c-bawah-contentborder1c
+    .border-content1c-bawah-content-1c-atas-2 {
+    color: #3e3e3e;
+    font-family: Nunito;
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 20px;
+    font-weight: 400;
+  }
+
+
+}

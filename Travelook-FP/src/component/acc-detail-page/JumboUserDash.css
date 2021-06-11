@@ -1,0 +1,30 @@
+.size-pointer {
+    /* cursor:pointer; */
+    font-size:2em;
+    border-radius:4px;
+    transition: all 0.3s linear;
+    /* border-top:1px solid #bbb;
+    border-bottom:1px solid #bbb; */
+}
+
+.header-cover{
+    /* display: flex;
+    flex-direction:column;
+    justify-content: center; */
+    position: relative;
+    height: 170vh ; /*artinya 50% dari tinggi browser,..tapi penulisan vh tidak pake persen jadi 50 ya 50%*/
+}
+
+.grad-back-color{
+    background: rgb(247,238,48);
+    background: linear-gradient(347deg, rgba(247,238,48,0.6379331095834797) 8%, rgba(84,238,135,0.8317533343025807) 19%, rgba(227,223,218,0.9948354341736695) 25%);
+    /* background: #a76262; */
+    /* background: rgb(247,238,48);
+    background: linear-gradient(347deg, rgba(247,238,48,0.9864320728291317) 8%, rgba(84,238,135,0.9976365546218487) 19%, rgba(227,223,218,0.9948354341736695) 25%); */
+    
+    /* background: rgb(247,121,219);
+    background: linear-gradient(14deg, rgba(247,121,219,0.9976365546218487) 0%, rgba(244,234,243,0.9948354341736695) 25%, rgba(246,247,247,0.9864320728291317) 95%); */
+    /* background-repeat: no-repeat; */
+    /* background: #070707; Old browsers */
+}
+
